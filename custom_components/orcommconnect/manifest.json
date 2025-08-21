@@ -1,0 +1,16 @@
+{
+  "domain": "orcommconnect",
+  "name": "Orcomm Connect",
+  "codeowners": [
+    "@elijah"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http"
+  ],
+  "documentation": "https://github.com/elijah/ha-orcommconnect",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/elijah/ha-orcommconnect/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

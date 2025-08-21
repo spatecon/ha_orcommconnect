@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Orcomm Connect Setup",
+        "description": "Choose how to configure your Orcomm Connect system",
+        "data": {
+          "setup_mode": "Setup Method"
+        }
+      },
+      "manual": {
+        "title": "Manual Configuration",
+        "description": "Enter the IP address of your Orcomm Connect system",
+        "data": {
+          "host": "Host IP Address",
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "discovery": {
+        "title": "Automatic Discovery",
+        "description": "Scan your network for Orcomm Connect devices. Enter your network subnet (e.g., 192.168.1.0/24) and credentials.",
+        "data": {
+          "subnet": "Network Subnet (CIDR notation)",
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "select_device": {
+        "title": "Select Device",
+        "description": "Multiple Orcomm Connect devices were found. Please select the one you want to configure.",
+        "data": {
+          "device": "Discovered Device"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Orcomm Connect system",
+      "invalid_auth": "Invalid authentication credentials",
+      "unknown": "Unexpected error occurred",
+      "no_devices_found": "No Orcomm Connect devices found on the network",
+      "invalid_subnet": "Invalid subnet format. Use CIDR notation (e.g., 192.168.1.0/24)",
+      "subnet_too_large": "Subnet is too large for scanning. Use a subnet with less than 1024 addresses",
+      "discovery_failed": "Network discovery failed. Please try manual configuration"
+    },
+    "abort": {
+      "already_configured": "Device is already configured",
+      "device_not_found": "Selected device not found",
+      "device_connection_failed": "Failed to connect to selected device"
+    }
+  }
+}

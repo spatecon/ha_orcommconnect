@@ -1,0 +1,9 @@
+{
+  "name": "Orcomm Connect",
+  "content_in_root": false,
+  "filename": "orcommconnect.zip",
+  "hide_default_branch": true,
+  "homeassistant": "2023.2.0",
+  "render_readme": true,
+  "zip_release": true
+}
