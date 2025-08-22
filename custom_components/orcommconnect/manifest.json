@@ -8,9 +8,9 @@
   "dependencies": [
     "http"
   ],
-  "documentation": "https://github.com/elijah/ha-orcommconnect",
+  "documentation": "https://github.com/elijah/ha_orcommconnect",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/elijah/ha-orcommconnect/issues",
+  "issue_tracker": "https://github.com/elijah/ha_orcommconnect/issues",
   "requirements": [],
   "version": "1.0.0"
 }
