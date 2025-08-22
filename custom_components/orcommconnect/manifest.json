@@ -2,15 +2,15 @@
   "domain": "orcommconnect",
   "name": "Orcomm Connect",
   "codeowners": [
-    "@elijah"
+    "@spatecon"
   ],
   "config_flow": true,
   "dependencies": [
     "http"
   ],
-  "documentation": "https://github.com/elijah/ha_orcommconnect",
+  "documentation": "https://github.com/spatecon/ha_orcommconnect",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/elijah/ha_orcommconnect/issues",
+  "issue_tracker": "https://github.com/spatecon/ha_orcommconnect/issues",
   "requirements": [],
   "version": "1.0.0"
 }
