@@ -75,9 +75,11 @@ class OrcommConnectLight(OrcommConnectEntity, LightEntity):
             # Convert from 0-255 to 0-100%
             brightness_percent = int(brightness * 100 / 255)
         else:
-            # If no brightness specified, use current or default to 100%
+            # If no brightness specified, use current brightness or default to 100%
             current_module = self._get_current_module()
-            brightness_percent = current_module.get("brightness", 100)
+            current_brightness = current_module.get("brightness", 0)
+            # Ensure brightness is at least 1% when turning on, default to 100% if current is 0
+            brightness_percent = current_brightness if current_brightness > 0 else 100
 
         try:
             await self._api.async_switch_device(
