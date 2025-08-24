@@ -1,8 +1,8 @@
 # Orcomm Connect Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/spatecon/ha_orcommconnect)](https://github.com/spatecon/ha_orcommconnect/releases)
-[![GitHub](https://img.shields.io/github/license/spatecon/ha_orcommconnect)](LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/spatecon/orcommconnect)](https://github.com/spatecon/orcommconnect/releases)
+[![GitHub](https://img.shields.io/github/license/spatecon/orcommconnect)](LICENSE)
 
 A Home Assistant custom integration for controlling Orcomm Connect lighting and switch systems over LAN.
 
@@ -31,13 +31,13 @@ A Home Assistant custom integration for controlling Orcomm Connect lighting and 
 2. Go to "Integrations"
 3. Click the three dots in the top right corner
 4. Select "Custom repositories"
-5. Add `https://github.com/spatecon/ha_orcommconnect` as an Integration
+5. Add `https://github.com/spatecon/orcommconnect` as an Integration
 6. Click "Install"
 7. Restart Home Assistant
 
 ### Manual Installation
 
-1. Download the latest release from the [releases page](https://github.com/spatecon/ha_orcommconnect/releases)
+1. Download the latest release from the [releases page](https://github.com/spatecon/orcommconnect/releases)
 2. Extract the contents to your `custom_components` directory
 3. Restart Home Assistant
 
