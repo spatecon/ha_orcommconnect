@@ -15,8 +15,8 @@ jobs:
     
     - name: Create release zip
       run: |
-        cd custom_components
-        zip -r ../orcommconnect.zip orcommconnect/ -x "*.git*" "*.DS_Store*"
+        cd custom_components/orcommconnect
+        zip -r ../../orcommconnect.zip . -x "*.git*" "*.DS_Store*"
     
     - name: Create Release
       uses: softprops/action-gh-release@v1
