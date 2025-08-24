@@ -76,6 +76,8 @@ class OrcommConnectLight(OrcommConnectEntity, LightEntity):
             brightness_percent = int(brightness * 100 / 255)
         else:
             # If no brightness specified, always default to 100%
+            # Keep the module state check to ensure entity state is properly initialized
+            current_module = self._get_current_module()
             brightness_percent = 100
 
         try:
